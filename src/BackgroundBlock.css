@@ -1,8 +1,44 @@
-.BackgroundBlock {
+/* // Smallest device */
+@media (min-width: 100px) and (max-width: 575px) {
+  .BackgroundBlock {
     text-align: center;
     padding: 15px;
-    width: 60rem;
-    margin: 10px auto;
+    width: 20rem;
+    margin: auto;
+    background-color: #F6F6F6;
+  }
+  .BackgroundBlock .lw-pic {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .BackgroundBlock {
+    text-align: center;
+    padding: 15px;
+    width: 25rem;
+    margin: auto;
+    background-color: #F6F6F6;
+  }
+  .BackgroundBlock .lw-pic {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .BackgroundBlock {
+    text-align: center;
+    padding: 15px;
+    width: 30rem;
+    margin: auto;
     background-color: #F6F6F6;
   }
 
@@ -12,3 +48,40 @@
     height: 200px;
     object-fit: cover;
   }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .BackgroundBlock {
+    text-align: center;
+    padding: 15px;
+    width: 60rem;
+    margin: auto;
+    background-color: #F6F6F6;
+  }
+
+  .BackgroundBlock .lw-pic {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .BackgroundBlock {
+    text-align: center;
+    padding: 15px;
+    width: 60rem;
+    margin: auto;
+    background-color: #F6F6F6;
+  }
+
+  .BackgroundBlock .lw-pic {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+}

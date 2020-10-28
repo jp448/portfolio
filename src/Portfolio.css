@@ -9,7 +9,7 @@
   }
   
   .header-item {
-    margin: 20px;
+    margin: 1rem;
   }
   
   .highlight span:hover {
@@ -64,4 +64,59 @@
 .hvr-skew-forward:hover, .hvr-skew-forward:focus, .hvr-skew-forward:active {
   -webkit-transform: skew(-10deg);
   transform: skew(-10deg);
+}
+
+/* Smallest device */
+@media (min-width: 100px) and (max-width: 575px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .main-header {
+    font-size: 4rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .header {
+    flex-direction: column;
+  }
+  
+  .main-header {
+    font-size: 4rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .main-header {
+    font-size: 5rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .header {
+    flex-direction: row;
+  }
+
+  .main-header {
+    font-size: 5rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .header {
+    flex-direction: row;
+  }
+
+  .main-header {
+    font-size: 5rem;
+  }
 }

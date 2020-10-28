@@ -17,6 +17,7 @@ import fatMoon from "./images/fat_moon.png";
 import webdeveloper from "./images/colt_steele_webdeveloper_bootcamp.png";
 import reactCourse from "./images/react_course.png";
 import rubyCourse from "./images/ruby_udemy_course.png";
+import accenture from "./images/Accenture.png"
 import "./App.css";
 
 const NavbarWithRouter = withRouter(Navbar);
@@ -41,6 +42,12 @@ class App extends Component {
         img: mrCocktail,
         link: "https://mr-cocktail.proctor-webworks.com",
         desc: "My first ruby on rails app (created in 2 days). Users can post cocktail images and recipies."
+      },
+      {
+        name: "Accenture Coding Challenge",
+        img: accenture,
+        link: "https://accenture.proctor-webworks.com/",
+        desc: "A coding challenge completed for Accenture using React. The challenge was to create an interactive one-page website about Accenture highlighting the companies identity."
       }
     ],
     incompletes: [

@@ -1,14 +1,9 @@
 .card-category {
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 15rem;
+    width: 20rem;
     margin: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    font-weight: bold;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     background-color: grey;
   }
@@ -23,6 +18,7 @@
     text-align: center;
     color: #F2DFD7;
     padding: 10px;
+    font-weight: bold;
   }
   
   /* Card grow css*/
@@ -83,4 +79,3 @@
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
   }
-  
