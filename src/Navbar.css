@@ -1,61 +1,49 @@
-  .Navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-family: 'Cutive', serif;
-    font-size: 2rem;
+/* // Smallest device */
+@media (min-width: 100px) and (max-width: 575px) {
+  .mobile {
+    display: inline;
   }
-  
-  .Navbar nav-item {
-    position: relative;
-    cursor: pointer;
-    text-decoration: none;
-    transition: all 0.5s ease;
+  .desktop {
+    display: none;
   }
+}
 
-  .Navbar a.Navbar-active {
-    color: #8A8B8B;
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .mobile {
+    display: inline;
   }
-  
-  .Navbar a {
-    line-height: 125px;
-    position: relative;
-    cursor: pointer;
-    text-decoration: none;
+  .desktop {
+    display: none;
   }
-  
-  .custom-underline {
-    position: relative;
-    display: inline-block;
-    font-size: 24px;
-    font-weight: 400;
-    text-align: center;
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .mobile {
+    display: inline;
   }
-  
-  .custom-underline,
-  .custom-underline:hover,
-  .custom-underline:focus,
-  .custom-underline:active {
-    color: #1D201F;
-    text-decoration: none;
+  .desktop {
+    display: none;
   }
-  
-  .custom-underline::after {
-    content: "";
-    position: absolute;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .mobile {
+    display: none;
   }
-  
-  .nav-item .custom-underline::after {
-    top: 65%;
-    height: 2px !important;
-    width: 40%;
-    left: 30%;
-    background-color: #841C26;
-    transition: 0.4s ease-out all .1s;
+  .desktop {
+    display: inline;
   }
-  
-  .nav-item:hover .custom-underline::after {
-    width: 90%;
-    left: 5%;
-    transition: 0.5s ease all;
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .mobile {
+    display: none;
   }
+  .desktop {
+    display: inline;
+  }
+}

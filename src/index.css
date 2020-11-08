@@ -8,9 +8,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
+a, a:hover, a:focus, a:active {
   text-decoration: none;
-  color: #1D201F;
+  color: inherit;
 }
 
 p {

@@ -5,7 +5,7 @@ class Card extends Component {
   render() {
     return (
     <div className='Card'>
-        <a href={this.props.link} target="_blank">
+        <a href={this.props.link} target="_blank" rel="noopener noreferrer">
             <div className="card-category hvr-grow hvr-sweep-to-bottom" style={{backgroundImage: "url(" + this.props.img + ")" }}>
                 <p>
                     {this.props.description}

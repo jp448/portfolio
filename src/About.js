@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import Header from "./Header";
 import ProfileImg from "./images/lw-pic.jpg";
 import BackgroundBlock from "./BackgroundBlock";
 import "./About.css";
@@ -8,6 +8,7 @@ class About extends Component {
   render() {
     return (
       <div className='About'>
+          <Header title="About" />
           <BackgroundBlock >
             <h2>About Me</h2>
             <img className="lw-pic" src={ProfileImg} alt='Profile' />

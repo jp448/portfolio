@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import Cards from "./Cards";
-import { Link } from "react-router-dom";
 import "./Projects.css";
 
 class Projects extends Component {
@@ -10,7 +9,7 @@ class Projects extends Component {
       <div className='Projects'>
           <Header title="Projects" />
           <Cards data={this.props.projects} />
-          <Header title="Projects in Progress"/>
+          <Header title="In Progress"/>
           <Cards data={this.props.incompletes} />
       </div>
     );

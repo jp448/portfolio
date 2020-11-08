@@ -3,9 +3,8 @@
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    margin-top: 5rem;
+    padding-top: 5rem;
     font-family: 'Cutive', serif;
-    cursor: none;
   }
   
   .header-item {
@@ -14,14 +13,12 @@
   
   .highlight span:hover {
     color: #841C26;
-    cursor: none;
   }
 
   .main-header {
     text-align: center;
     font-family: 'Cutive', serif;
     font-size: 5rem;
-    cursor: none;
   }
 
   .red-text {
@@ -73,7 +70,7 @@
   }
 
   .main-header {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 }
 
