@@ -5,7 +5,7 @@ import "./NavbarDesktop.css";
 class NavbarDesktop extends Component {
   render() {
     let pathname = this.props.location ? this.props.location.pathname : 'default';
-    if (pathname === '/portfolio' || pathname === '/') {
+    if (pathname === '/portfolio' || pathname === '/' || pathname === '' ) {
         return (
             null
         );
