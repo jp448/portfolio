@@ -150,7 +150,7 @@ class App extends Component {
       <div className='App'>
         <NavbarWithRouter menu={this.props.menu} />
         <Switch>
-          <Route exact path='/' render={() => <Portfolio />} />
+          <Route exact path='/' render={() => <Portfolio menu={this.props.menu} />} />
           <Route exact path='/portfolio' render={() => <Portfolio menu={this.props.menu} />} />
           <Route exact path='/projects' render={() => <Projects projects={this.props.projects} incompletes={this.props.incompletes} />} />
           <Route exact path='/experience' render={() => <Experience courses={this.props.courses} quotes={this.props.quotes} />} />
