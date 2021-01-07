@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.428031a5.chunk.css",
-    "main.js": "/static/js/main.acc2bfaa.chunk.js",
-    "main.js.map": "/static/js/main.acc2bfaa.chunk.js.map",
+    "main.css": "/static/css/main.35ed5278.chunk.css",
+    "main.js": "/static/js/main.8d8bafc6.chunk.js",
+    "main.js.map": "/static/js/main.8d8bafc6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c542aba9.js",
     "runtime-main.js.map": "/static/js/runtime-main.c542aba9.js.map",
     "static/css/2.f4bde6ca.chunk.css": "/static/css/2.f4bde6ca.chunk.css",
-    "static/js/2.1e2af542.chunk.js": "/static/js/2.1e2af542.chunk.js",
-    "static/js/2.1e2af542.chunk.js.map": "/static/js/2.1e2af542.chunk.js.map",
+    "static/js/2.5f60d949.chunk.js": "/static/js/2.5f60d949.chunk.js",
+    "static/js/2.5f60d949.chunk.js.map": "/static/js/2.5f60d949.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0b7c66a9ec0921b554ca9fecc3ce022c.js": "/precache-manifest.0b7c66a9ec0921b554ca9fecc3ce022c.js",
+    "precache-manifest.ad411bb75c577ced38c07f815a973197.js": "/precache-manifest.ad411bb75c577ced38c07f815a973197.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.f4bde6ca.chunk.css.map": "/static/css/2.f4bde6ca.chunk.css.map",
-    "static/css/main.428031a5.chunk.css.map": "/static/css/main.428031a5.chunk.css.map",
-    "static/js/2.1e2af542.chunk.js.LICENSE.txt": "/static/js/2.1e2af542.chunk.js.LICENSE.txt",
+    "static/css/main.35ed5278.chunk.css.map": "/static/css/main.35ed5278.chunk.css.map",
+    "static/js/2.5f60d949.chunk.js.LICENSE.txt": "/static/js/2.5f60d949.chunk.js.LICENSE.txt",
     "static/media/Accenture.png": "/static/media/Accenture.4e21fa14.png",
+    "static/media/background.png": "/static/media/background.1916fa41.png",
     "static/media/bike_match.png": "/static/media/bike_match.61d1f0d2.png",
     "static/media/colt_steele_webdeveloper_bootcamp.png": "/static/media/colt_steele_webdeveloper_bootcamp.d05bd0b7.png",
     "static/media/fat_moon.png": "/static/media/fat_moon.ed8b329b.png",
@@ -30,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.c542aba9.js",
     "static/css/2.f4bde6ca.chunk.css",
-    "static/js/2.1e2af542.chunk.js",
-    "static/css/main.428031a5.chunk.css",
-    "static/js/main.acc2bfaa.chunk.js"
+    "static/js/2.5f60d949.chunk.js",
+    "static/css/main.35ed5278.chunk.css",
+    "static/js/main.8d8bafc6.chunk.js"
   ]
 }
