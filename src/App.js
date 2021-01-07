@@ -18,6 +18,7 @@ import webdeveloper from "./images/colt_steele_webdeveloper_bootcamp.png";
 import reactCourse from "./images/react_course.png";
 import rubyCourse from "./images/ruby_udemy_course.png";
 import accenture from "./images/Accenture.png"
+import pizzaCart from "./images/pizza_cart.png"
 import background from "./images/background.png"
 import "./App.css";
 
@@ -52,6 +53,13 @@ class App extends Component {
         img: accenture,
         link: "https://accenture.proctor-webworks.com/",
         desc: "A coding challenge completed for Accenture using React. The challenge was to create an interactive one-page website about Accenture highlighting the companies identity.",
+        key: 4
+      },
+      {
+        name: "Pizza Cart",
+        img: pizzaCart,
+        link: "https://pizza-cart.proctor-webworks.com/",
+        desc: "A coding challenge completed for a company. The challenge was to create a create your own pizza app.",
         key: 4
       }
     ],
