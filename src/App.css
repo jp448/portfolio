@@ -1,6 +1,9 @@
-
-.App {
+.Background {
   text-align: center;
+  background-size: cover;   
+  background-repeat:   no-repeat;
+  background-size: 100% auto;
+  color: #4DCCBD;
 }
 
 

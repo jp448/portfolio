@@ -2,8 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    font-family: 'Cutive', serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
+    margin: 0;
   }
   
   .NavbarDesktop nav-item {
@@ -14,7 +15,7 @@
   }
 
   .NavbarDesktop a.Navbar-active {
-    color: #8A8B8B;
+    color: #857C8D;
   }
   
   .NavbarDesktop a {
@@ -36,7 +37,7 @@
   .custom-underline:hover,
   .custom-underline:focus,
   .custom-underline:active {
-    color: #1D201F;
+    color: #4DCCBD;
     text-decoration: none;
   }
   
@@ -50,7 +51,7 @@
     height: 2px !important;
     width: 40%;
     left: 30%;
-    background-color: #841C26;
+    background-color: #4DCCBD;
     transition: 0.4s ease-out all .1s;
   }
   

@@ -5,6 +5,7 @@
     font-size: 2rem;
     padding-top: 5rem;
     font-family: 'Cutive', serif;
+    margin-bottom: 10rem;
   }
   
   .header-item {
@@ -12,7 +13,7 @@
   }
   
   .highlight span:hover {
-    color: #841C26;
+    color: #D6FFF6;
   }
 
   .main-header {
@@ -22,7 +23,7 @@
   }
 
   .red-text {
-    color: #841C26;
+    color: #1D201F;
   }
 
   /* Skew Backward */

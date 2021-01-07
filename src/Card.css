@@ -16,7 +16,7 @@
     visibility: visible;
     font-size: 1rem;
     text-align: center;
-    color: #F2DFD7;
+    color: #D6FFF6;
     padding: 10px;
     font-weight: bold;
   }
@@ -59,7 +59,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: #841C26;
+    background: #231651;
     opacity: 0.8;
     -webkit-transform: scaleY(0);
     transform: scaleY(0);

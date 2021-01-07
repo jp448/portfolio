@@ -18,6 +18,7 @@ import webdeveloper from "./images/colt_steele_webdeveloper_bootcamp.png";
 import reactCourse from "./images/react_course.png";
 import rubyCourse from "./images/ruby_udemy_course.png";
 import accenture from "./images/Accenture.png"
+import background from "./images/background.png"
 import "./App.css";
 
 const NavbarWithRouter = withRouter(Navbar);
@@ -148,15 +149,17 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <NavbarWithRouter menu={this.props.menu} />
-        <Switch>
-          <Route exact path='/' render={() => <Portfolio menu={this.props.menu} />} />
-          <Route exact path='/portfolio' render={() => <Portfolio menu={this.props.menu} />} />
-          <Route exact path='/projects' render={() => <Projects projects={this.props.projects} incompletes={this.props.incompletes} />} />
-          <Route exact path='/experience' render={() => <Experience courses={this.props.courses} quotes={this.props.quotes} />} />
-          <Route exact path='/about' render={() => <About />} />
-          <Route exact path='/contact' render={() => <Contact />} />
-        </Switch>
+        <div className='Background' style={{backgroundImage: `url(${background})`, "width": "100vw"}}>
+          <NavbarWithRouter menu={this.props.menu} />
+          <Switch>
+            <Route exact path='/' render={() => <Portfolio menu={this.props.menu} />} />
+            <Route exact path='/portfolio' render={() => <Portfolio menu={this.props.menu} />} />
+            <Route exact path='/projects' render={() => <Projects projects={this.props.projects} incompletes={this.props.incompletes} />} />
+            <Route exact path='/experience' render={() => <Experience courses={this.props.courses} quotes={this.props.quotes} />} />
+            <Route exact path='/about' render={() => <About />} />
+            <Route exact path='/contact' render={() => <Contact />} />
+          </Switch>
+        </div>
       </div>
     );
   }

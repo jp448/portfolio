@@ -1,14 +1,14 @@
 .BrainhubCarousel__arrows {
-    background-color: #841C26;
+    background-color: #4DCCBD;
 }
 
 .BrainhubCarousel__arrows:hover {
-    background-color: #841C26;
+    background-color: #4DCCBD;
     opacity: .8;
 }
 
 .BrainhubCarousel__arrows:hover:enabled {
-    background-color: #841C26;
+    background-color: #4DCCBD;
     opacity: .8;
 }
 
