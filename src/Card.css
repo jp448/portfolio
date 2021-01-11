@@ -1,24 +1,56 @@
+.Card {
+  margin: 2rem;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  background-color: #F6F6F6;
+}
 .card-category {
     background-size: cover;
     background-position: center;
     height: 15rem;
     width: 20rem;
-    margin: 2rem;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    background-color: grey;
+    padding: 10px;
+  }
+
+  .card-category-bottom {
+    height: 8rem;
+    width: 20rem;
+    position: relative;
+  }
+
+  .card-category-bottom .links {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .card-category-bottom .links a:hover {
+    color: #231651;
   }
   
   .card-category p {
     visibility: hidden;
   }
+
+  .card-category .icon {
+    visibility: hidden;
+  }
   
   .card-category:hover p {
     visibility: visible;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-align: center;
     color: #D6FFF6;
     padding: 10px;
-    font-weight: bold;
+  }
+
+  .card-category:hover .icon {
+    visibility: visible;
+    font-size: 2rem;
+    text-align: center;
+    color: #D6FFF6;
+    padding: 10px;
   }
   
   /* Card grow css*/

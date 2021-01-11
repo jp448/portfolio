@@ -45,7 +45,6 @@
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 16px;
   }
   
   .icon-container {
@@ -64,7 +63,6 @@
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 16px;
   }
   
   .icon-container {
@@ -83,7 +81,6 @@
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 14px;
   }
   
   .icon-container {
@@ -102,7 +99,6 @@
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 16px;
   }
   
   .icon-container {
@@ -121,7 +117,6 @@
   .icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 16px;
   }
   
   .icon-container {

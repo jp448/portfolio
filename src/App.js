@@ -30,35 +30,35 @@ class App extends Component {
       {
         name: "Welcome",
         img: welcome,
-        link: "https://welcome.proctor-webworks.com",
+        links: ["https://welcome.proctor-webworks.com", "https://github.com/jp448/welcome"],
         desc: "A ruby on rails app that helps expats navigate moving to a new country. It was developed in the last 2 weeks at Le Wagon.",
         key: 1
       },
       {
         name: "Bike Match",
         img: bikematch,
-        link: "https://bikematch.proctor-webworks.com",
+        links: ["https://bikematch.proctor-webworks.com", "https://github.com/jp448/bike-match"],
         desc: "A ruby on rails app modeled after an Airbnb rental market, but with bikes. Created in one week by the same team which created the Welcome App.",
         key: 2
       },
       {
         name: "Mr. Cocktail",
         img: mrCocktail,
-        link: "https://mr-cocktail.proctor-webworks.com",
+        links: ["https://mr-cocktail.proctor-webworks.com", "https://github.com/jp448/rails-mister-cocktail"],
         desc: "My first ruby on rails app (created in 2 days). Users can post cocktail images and recipies.",
         key: 3
       },
       {
         name: "Accenture Coding Challenge",
         img: accenture,
-        link: "https://accenture.proctor-webworks.com/",
-        desc: "A coding challenge completed for Accenture using React. The challenge was to create an interactive one-page website about Accenture highlighting the companies identity.",
+        links: ["https://accenture.proctor-webworks.com/", "https://github.com/jp448/accenture_code_challenge"],
+        desc: "A coding challenge completed for Accenture using React. The challenge was to create an interactive one-page website about Accenture company identity.",
         key: 4
       },
       {
         name: "Pizza Cart",
         img: pizzaCart,
-        link: "https://pizza-cart.proctor-webworks.com/",
+        links: ["https://pizza-cart.proctor-webworks.com/", "https://github.com/jp448/pizza_cart_app"],
         desc: "A coding challenge completed for a company. The challenge was to create a create your own pizza app.",
         key: 4
       }
@@ -67,18 +67,21 @@ class App extends Component {
       {
         name: "STM",
         img: stm,
+        links: [],
         desc: "Freelance project designing and programming an architecture firm's website. Programmed using a frontity framework, using react for frotend and wordpress for backend.",
         key: 5
       },
       {
         name: "Swap It",
         img: swapIt,
+        links: [],
         desc: "A ruby on rails mobile market place app for swapping everyday household items.",
         key: 6
       },
       {
         name: "Mr. Cocktail",
         img: fatMoon,
+        links: [],
         desc: "Freelance project using HTML and CSS to create a static website for a beach house rental.",
         key: 7
       }
@@ -87,18 +90,21 @@ class App extends Component {
       {
         name: "Web Developer Course",
         img: webdeveloper,
+        links: [],
         desc: "Colt Steele's Web Developers Bootcamp is an online Udemy course consisting of about 62 hours of videos and 604 lectures on topics ranging from HTML5, CSS3, JavaScript, NodeJS, MongoDB and many more.",
         key: 8
       },
       {
         name: "React Course",
         img: reactCourse,
+        links: [],
         desc: "Colt Steele's Modern React Bootcamp is an online Udemy course consisting of 39 hours of videos and 312 lectures on topics ranging from React Basics, Next JS, Hoooks, React Router, Context API and many more.",
         key: 9
       },
       {
         name: "Ruby Course",
         img: rubyCourse,
+        links: [],
         desc: "Is an online Ruby Basics Udemy course consisting of 10.5 hours of video and 100 lecutures on topics from Built in Ruby methods, Ruby Gem libraries, Ruby programming best practices, OOP, and many more.",
         key: 10
       }
@@ -157,7 +163,7 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <div className='Background' style={{backgroundImage: `url(${background})`, "width": "100vw"}}>
+        <div className='Background' style={{backgroundImage: `url(${background})`, "width": "100vw", "height": "100%"}}>
           <NavbarWithRouter menu={this.props.menu} />
           <Switch>
             <Route exact path='/' render={() => <Portfolio menu={this.props.menu} />} />

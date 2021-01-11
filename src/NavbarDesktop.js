@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
+import Fade from 'react-reveal/Fade';
 import "./NavbarDesktop.css";
 
 class NavbarDesktop extends Component {
@@ -13,11 +14,13 @@ class NavbarDesktop extends Component {
     return (
       <ul className='NavbarDesktop'>
         {this.props.menu.map(p => (
-          <li className="nav-item"  key={p.key}>
-          <NavLink exact activeClassName='Navbar-active' to={p.link} className="custom-underline">
-            {p.name}
-          </NavLink>
-        </li>
+          <Fade top>
+            <li className="nav-item"  key={p.key}>
+              <NavLink exact activeClassName='Navbar-active' to={p.link} className="custom-underline">
+                {p.name}
+              </NavLink>
+            </li>
+          </Fade>
         ))}
       </ul>
     );
