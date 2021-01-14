@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.35ed5278.chunk.css",
-    "main.js": "/static/js/main.8d8bafc6.chunk.js",
-    "main.js.map": "/static/js/main.8d8bafc6.chunk.js.map",
+    "main.css": "/static/css/main.3451984b.chunk.css",
+    "main.js": "/static/js/main.5f41e2a8.chunk.js",
+    "main.js.map": "/static/js/main.5f41e2a8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c542aba9.js",
     "runtime-main.js.map": "/static/js/runtime-main.c542aba9.js.map",
     "static/css/2.f4bde6ca.chunk.css": "/static/css/2.f4bde6ca.chunk.css",
-    "static/js/2.5f60d949.chunk.js": "/static/js/2.5f60d949.chunk.js",
-    "static/js/2.5f60d949.chunk.js.map": "/static/js/2.5f60d949.chunk.js.map",
+    "static/js/2.1e998f48.chunk.js": "/static/js/2.1e998f48.chunk.js",
+    "static/js/2.1e998f48.chunk.js.map": "/static/js/2.1e998f48.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.ad411bb75c577ced38c07f815a973197.js": "/precache-manifest.ad411bb75c577ced38c07f815a973197.js",
+    "precache-manifest.64afea4e3449b05670426e6c043740e0.js": "/precache-manifest.64afea4e3449b05670426e6c043740e0.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.f4bde6ca.chunk.css.map": "/static/css/2.f4bde6ca.chunk.css.map",
-    "static/css/main.35ed5278.chunk.css.map": "/static/css/main.35ed5278.chunk.css.map",
-    "static/js/2.5f60d949.chunk.js.LICENSE.txt": "/static/js/2.5f60d949.chunk.js.LICENSE.txt",
+    "static/css/main.3451984b.chunk.css.map": "/static/css/main.3451984b.chunk.css.map",
+    "static/js/2.1e998f48.chunk.js.LICENSE.txt": "/static/js/2.1e998f48.chunk.js.LICENSE.txt",
     "static/media/Accenture.png": "/static/media/Accenture.4e21fa14.png",
     "static/media/background.png": "/static/media/background.1916fa41.png",
     "static/media/bike_match.png": "/static/media/bike_match.61d1f0d2.png",
@@ -22,6 +22,7 @@
     "static/media/jocelyn_proctor_lwcert.png": "/static/media/jocelyn_proctor_lwcert.0accd6b4.png",
     "static/media/lw-pic.jpg": "/static/media/lw-pic.268825d8.jpg",
     "static/media/mr_cocktails.png": "/static/media/mr_cocktails.2c5b76f1.png",
+    "static/media/pizza_cart.png": "/static/media/pizza_cart.e7acd6cc.png",
     "static/media/react_course.png": "/static/media/react_course.8adfc268.png",
     "static/media/ruby_udemy_course.png": "/static/media/ruby_udemy_course.b8763b5a.png",
     "static/media/stm.png": "/static/media/stm.ba5f30ed.png",
@@ -31,8 +32,8 @@
   "entrypoints": [
     "static/js/runtime-main.c542aba9.js",
     "static/css/2.f4bde6ca.chunk.css",
-    "static/js/2.5f60d949.chunk.js",
-    "static/css/main.35ed5278.chunk.css",
-    "static/js/main.8d8bafc6.chunk.js"
+    "static/js/2.1e998f48.chunk.js",
+    "static/css/main.3451984b.chunk.css",
+    "static/js/main.5f41e2a8.chunk.js"
   ]
 }

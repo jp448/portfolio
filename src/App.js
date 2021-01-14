@@ -30,35 +30,35 @@ class App extends Component {
       {
         name: "Welcome",
         img: welcome,
-        links: ["https://welcome.proctor-webworks.com", "https://github.com/jp448/welcome"],
+        links: ["https://welcome.proctor-webworks.com", "https://github.com/jp448/welcome", "https://storage.jkproctor.com/portfolio/welcome_demo_7.mp4"],
         desc: "A ruby on rails app that helps expats navigate moving to a new country. It was developed in the last 2 weeks at Le Wagon.",
         key: 1
       },
       {
         name: "Bike Match",
         img: bikematch,
-        links: ["https://bikematch.proctor-webworks.com", "https://github.com/jp448/bike-match"],
+        links: ["https://bikematch.proctor-webworks.com", "https://github.com/jp448/bike-match", "https://storage.jkproctor.com/portfolio/bike_match_demo_7.mp4"],
         desc: "A ruby on rails app modeled after an Airbnb rental market, but with bikes. Created in one week by the same team which created the Welcome App.",
         key: 2
       },
       {
         name: "Mr. Cocktail",
         img: mrCocktail,
-        links: ["https://mr-cocktail.proctor-webworks.com", "https://github.com/jp448/rails-mister-cocktail", "https://storage.jkproctor.com/portfolio/cocktail_demo.mp4"],
+        links: ["https://mr-cocktail.proctor-webworks.com", "https://github.com/jp448/rails-mister-cocktail", "https://storage.jkproctor.com/portfolio/mrcocktail_demo_7.mp4"],
         desc: "My first ruby on rails app (created in 2 days). Users can post cocktail images and recipies.",
         key: 3
       },
       {
         name: "Accenture Coding Challenge",
         img: accenture,
-        links: ["https://accenture.proctor-webworks.com/", "https://github.com/jp448/accenture_code_challenge"],
+        links: ["https://accenture.proctor-webworks.com/", "https://github.com/jp448/accenture_code_challenge", "https://storage.jkproctor.com/portfolio/accenture_challenge_demo_7.mp4"],
         desc: "A coding challenge completed for Accenture using React. The challenge was to create an interactive one-page website about Accenture company identity.",
         key: 4
       },
       {
         name: "Pizza Cart",
         img: pizzaCart,
-        links: ["https://pizza-cart.proctor-webworks.com/", "https://github.com/jp448/pizza_cart_app"],
+        links: ["https://pizza-cart.proctor-webworks.com/", "https://github.com/jp448/pizza_cart_app", "https://storage.jkproctor.com/portfolio/pizza_cart_demo_7.mp4"],
         desc: "A coding challenge completed for a company. The challenge was to create a create your own pizza app.",
         key: 4
       }
