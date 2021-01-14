@@ -13,7 +13,7 @@ class Experience extends Component {
       <div className='Experience'>
           <Header title="Courses" />
           <BackgroundBlock>
-            <h2><a className="doc-link" href={LWDoc}>Le Wagon Full Stack Developer 9 week Bootcamp</a></h2>
+            <h2><a className="doc-link" href={LWDoc} target="_blank" rel="noopener noreferrer">Le Wagon Full Stack Developer 9 week Bootcamp</a></h2>
             <p>Le Wagon is a 9 week intensive full stack web development bootcamp. Every morning there is a lecture on a new topic and then exercises through out the day. After starting with Ruby basics, students then devote a week to learning OOP and the MVC architechture. Then there are several days dedicated to database management (SQL and Rail's Active Record). After students dive into Frontend, learning the basics of CSS and HTML. Finally before projects weeks you learn how to manipulate the DOM using Javascript. After 6 weeks students group together to form teams so that they may experiance what a sprint would look like at a company. At the end of the Camp participants will have made over 6 Rails apps.</p>
           </BackgroundBlock>
           <Header title="Udemy Courses" />
