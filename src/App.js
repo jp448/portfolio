@@ -44,7 +44,7 @@ class App extends Component {
       {
         name: "Mr. Cocktail",
         img: mrCocktail,
-        links: ["https://mr-cocktail.proctor-webworks.com", "https://github.com/jp448/rails-mister-cocktail"],
+        links: ["https://mr-cocktail.proctor-webworks.com", "https://github.com/jp448/rails-mister-cocktail", "https://storage.jkproctor.com/portfolio/cocktail_demo.mp4"],
         desc: "My first ruby on rails app (created in 2 days). Users can post cocktail images and recipies.",
         key: 3
       },

@@ -3,17 +3,21 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   background-color: #F6F6F6;
 }
+
+.Card .pointer {
+  cursor: pointer;
+}
+
 .card-category {
     background-size: cover;
     background-position: center;
     height: 15rem;
-    width: 20rem;
+    width: 21rem;
     padding: 10px;
   }
 
   .card-category-bottom {
-    height: 8rem;
-    width: 20rem;
+    height: 6rem;
     position: relative;
   }
 
