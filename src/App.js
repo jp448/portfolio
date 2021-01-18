@@ -17,9 +17,10 @@ import fatMoon from "./images/fat_moon.png";
 import webdeveloper from "./images/colt_steele_webdeveloper_bootcamp.png";
 import reactCourse from "./images/react_course.png";
 import rubyCourse from "./images/ruby_udemy_course.png";
-import accenture from "./images/Accenture.png"
-import pizzaCart from "./images/pizza_cart.png"
-import background from "./images/background.png"
+import accenture from "./images/Accenture.png";
+import pizzaCart from "./images/pizza_cart.png";
+import weatherApp from "./images/weather_app_img.png";
+import background from "./images/background.png";
 import "./App.css";
 
 const NavbarWithRouter = withRouter(Navbar);
@@ -30,37 +31,44 @@ class App extends Component {
       {
         name: "Welcome",
         img: welcome,
-        links: ["https://welcome.proctor-webworks.com", "https://github.com/jp448/welcome", "https://storage.jkproctor.com/portfolio/welcome_demo_7.mp4"],
+        links: ["https://welcome.proctor-webworks.com", "https://github.com/jp448/welcome", "https://storage.jkproctor.com/portfolio/welcome_demo.mp4"],
         desc: "A ruby on rails app that helps expats navigate moving to a new country. It was developed in the last 2 weeks at Le Wagon.",
         key: 1
       },
       {
         name: "Bike Match",
         img: bikematch,
-        links: ["https://bikematch.proctor-webworks.com", "https://github.com/jp448/bike-match", "https://storage.jkproctor.com/portfolio/bike_match_demo_7.mp4"],
+        links: ["https://bikematch.proctor-webworks.com", "https://github.com/jp448/bike-match", "https://storage.jkproctor.com/portfolio/bike_match.mp4"],
         desc: "A ruby on rails app modeled after an Airbnb rental market, but with bikes. Created in one week by the same team which created the Welcome App.",
         key: 2
       },
       {
         name: "Mr. Cocktail",
         img: mrCocktail,
-        links: ["https://mr-cocktail.proctor-webworks.com", "https://github.com/jp448/rails-mister-cocktail", "https://storage.jkproctor.com/portfolio/mrcocktail_demo_7.mp4"],
+        links: ["https://mr-cocktail.proctor-webworks.com", "https://github.com/jp448/rails-mister-cocktail", "https://storage.jkproctor.com/portfolio/mrcocktail_demo.mp4"],
         desc: "My first ruby on rails app (created in 2 days). Users can post cocktail images and recipies.",
         key: 3
       },
       {
         name: "Accenture Coding Challenge",
         img: accenture,
-        links: ["https://accenture.proctor-webworks.com/", "https://github.com/jp448/accenture_code_challenge", "https://storage.jkproctor.com/portfolio/accenture_challenge_demo_7.mp4"],
+        links: ["https://accenture.proctor-webworks.com/", "https://github.com/jp448/accenture_code_challenge", "https://storage.jkproctor.com/portfolio/accenture_challenge.mp4"],
         desc: "A coding challenge completed for Accenture using React. The challenge was to create an interactive one-page website about Accenture company identity.",
         key: 4
       },
       {
         name: "Pizza Cart",
         img: pizzaCart,
-        links: ["https://pizza-cart.proctor-webworks.com/", "https://github.com/jp448/pizza_cart_app", "https://storage.jkproctor.com/portfolio/pizza_cart_demo_7.mp4"],
+        links: ["https://pizza-cart.proctor-webworks.com/", "https://github.com/jp448/pizza_cart_app", "https://storage.jkproctor.com/portfolio/pizza_cart_demo.mp4"],
         desc: "A coding challenge completed for a company. The challenge was to create a create your own pizza app.",
-        key: 4
+        key: 21
+      },
+      {
+        name: "Weather App",
+        img: weatherApp,
+        links: ["https://pizza-cart.proctor-webworks.com/", "https://github.com/jp448/pizza_cart_app", "https://storage.jkproctor.com/portfolio/weather_app.mp4"],
+        desc: "A coding challenge completed for a company. The challenge was to create a weather app using the Open Weather API. Everytime the page refreshes to a new random city",
+        key: 22
       }
     ],
     incompletes: [
