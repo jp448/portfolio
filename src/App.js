@@ -66,7 +66,7 @@ class App extends Component {
       {
         name: "Weather App",
         img: weatherApp,
-        links: ["https://www.weather-app.proctor-webworks.com/", "https://github.com/jp448/weather-app", "https://storage.jkproctor.com/portfolio/weather_app.mp4"],
+        links: ["https://weather-app.proctor-webworks.com/", "https://github.com/jp448/weather-app", "https://storage.jkproctor.com/portfolio/weather_app.mp4"],
         desc: "A coding challenge completed for a company. The challenge was to create a weather app using the Open Weather API. Everytime the page refreshes to a new random city",
         key: 22
       }
